@@ -1,6 +1,9 @@
 # wind
 Take the wind Challenge
 
+##
+
+
 ## Installation
 
 ```bash
@@ -18,6 +21,12 @@ composer install
 
 php artisan migrate
 php artisan db:seed
+
+php artisan l5-swagger:generate
+// avaiable at /api/documentation
+
+npm install
+npm run dev
 
 ## Endpoints
 - POST /api/register
